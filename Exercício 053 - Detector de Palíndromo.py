@@ -27,15 +27,3 @@ if frase[0] == frase[-1]:
         print(f"{frase} não é um palíndromo.")
 else:
     print(f"'{frase}' não é um palíndromo.")
-
-# frase= str(input("Digite uma frase: ").upper().strip())
-# q_palavras= frase.split()
-# espaços_0= "".join(q_palavras)
-# frase_invertida= espaços_0[::-1]
-
-# if espaços_0 == frase_invertida:
-#     p_frase= f"{frase} é um palíndromo."
-# else:
-#     p_frase= f"{frase} não é um palíndromo."
-
-# print(f"{p_frase}")
